@@ -2,5 +2,13 @@
 
 #login {
     width: 90vw;
-    
+}
+#imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+#form {
+    float: right;
+    width: 70%;
 }
