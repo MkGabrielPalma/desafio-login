@@ -62,7 +62,7 @@ div {
     margin-bottom: 10px;
     text-align: center;
     height: 40px;
-    width: 280px;
+    min-width: 280px;
 }
 input {
     border: 0px;

@@ -12,3 +12,9 @@
     float: right;
     width: 50%;
 }
+#form h1 {
+    font-size: 1.8em;
+}
+#form p{
+    font-size: 1em;
+}
