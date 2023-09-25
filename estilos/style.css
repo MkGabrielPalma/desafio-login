@@ -10,8 +10,10 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 main {
+    position: relative;
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
@@ -23,12 +25,14 @@ main {
     transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 25px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.29);
     width: 300px;
     height: 600px;
 }
-#imagem > img {
+#imagem {
+    background-image: url(../imagens/pexels-dinnow-9444476.jpg);
+    background-position: left center;
     border-radius: 25px 25px 0px 0px;
-    width: 300px;
     height: 250px;
 }
 #form {
@@ -36,10 +40,23 @@ main {
 }
 #form h1 {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 #form p{
     font-size: 0.8em;
     text-align: center;
+    margin-bottom: 10px;
+}
+.cadastro {
+    background-color: #5f2c82;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 40px;
+    width: 280px;
+}
+input {
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
 }

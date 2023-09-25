@@ -6,18 +6,23 @@
     <title>.:: Desafio Login ::.</title>
     <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                <img src="imagens/pexels-paul-volkmer-2372876.jpg" alt="imagem">
             </div>
             <div id="form">
                 <h1>Login</h1>
                 <p> Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
                 <form action="cadastro.php" method="get">
-                    
+                    <div class="cadastro">
+                        <input type="text" name="email" id="iemail" placeholder="Digite seu email" size="28">
+                    </div>
+                    <div class="cadastro">
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" size="28">
+                    </div>
                 </form>
             </div>
         </section>
