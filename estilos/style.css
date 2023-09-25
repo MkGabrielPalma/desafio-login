@@ -31,7 +31,7 @@ main {
     border-radius: 25px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.29);
     width: 300px;
-    height: 600px;
+    height: 550px;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -59,13 +59,51 @@ div {
 }
 .cadastro {
     background-color: #5f2c82;
-    margin-bottom: 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
     text-align: center;
     height: 40px;
-    min-width: 280px;
+}
+label {
+    display: none;
 }
 input {
-    border: 0px;
+    border: none;
     border-radius: 5px;
     height: 30px;
+}
+form > input[type=submit] { 
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: #224a49;
+    transition-duration: .2s;
+} 
+.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    border: 1px solid #224a49;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #234e4c; 
+    margin-top: 10px;
+}
+.botao:hover {
+    background-color: #224a49;
+    transition-duration: .2s;
+    color: white;
+}
+form > a.botao > span {
+    font-size: 0.8em;
 }
